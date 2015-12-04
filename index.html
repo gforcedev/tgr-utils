@@ -31,15 +31,27 @@ function createCookie1() {
     </style>
     <div class="jumbotron text-center"> <h1>TGR utils examle page!</h1></div>
     
-    <div class="panel panel-info btn-group">
-    <div class="panel-heading">Cookies</div> <div class="panel-body">
-    All elements in hear use cookie utils!<br>
-    <div class="btn btn-info" onClick="createCookie1()">create cookie 1</div>
-    <input type="text" name="cookie1Input" id="cookie1Input" placeholder="Value of new cookie"><br>
-    <div class="btn btn-warning" onClick="alert(getCookie('cookie1'))">get cookie 1</div><br>
-        <div class="btn btn-danger" onClick="deleteCookie('cookie1'), alert('Deleted')">Delete cookie 1</div>
+    <div class="row">
+        <div class="col-xs-6">
+            <div class="panel panel-info btn-group">
+            <div class="panel-heading">Cookies</div>
+            <div class="panel-body">
+                All elements in here use cookie utils!<br>
+                <div class="btn btn-info" onClick="createCookie1()">create cookie 1</div>
+                <input type="text" name="cookie1Input" id="cookie1Input" placeholder="Value of new cookie"><br>
+                <div class="btn btn-warning" onClick="alert(getCookie('cookie1'))">get cookie 1</div><br>
+                <div class="btn btn-danger" onClick="deleteCookie('cookie1'), alert('Deleted')">Delete cookie 1</div>
+            </div>
+            <div class="panel-footer">To get the functions visit <a href="https://github.com/gforcedev/tgr-utils/blob/master/js/cookieutils.js">This github page</a></div>
         </div>
-        <div class="panel-footer">To get the functions visit <a href="https://github.com/gforcedev/tgr-utils/blob/master/js/cookieutils.js">This github page</a></div>
+        <div class="col-xs-6">
+            <div class="panel panel-info btn-group">
+                <div class="panel-heading">Animate!</div>
+                <div class="panel-body">
+                    All of the things in here use the animation utils!
+                </div>
+            </div>
         </div>
+    </div>
     </body>
 </html>
